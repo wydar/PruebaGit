@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link rel="stylesheet" type="text/css" href="indice.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="newjavascript.js"  type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+          <h1> Registro</h1>
+
+          <form name="formulario" onsubmit="return validateFormRegistro()" action="NewServletRegistro" method="post">
+            <table>
+                        <tr>
+                            <td>Nombre ususario: </td>
+                            <td><input type="text" name="user" value="" placeholder="Usuario"></td>
+                        </tr>
+                        <tr>
+                            <td>Contraseña:</td>
+                            <td><input type="password" name="pass1" value=""  placeholder="Contraseña"></td>
+                        </tr>
+                        <tr>
+                            <td>Repite Contraseña: </td>
+                            <td><input type="password" name="pass2" value=""  placeholder="Contraseña"></td>
+                        </tr>
+                        <tr>
+                            <td>Número de teléfono: </td>
+                            <td><input type="text" name="telf" value="" placeholder="Telefono"> </td>
+                        </tr>
+                        <tr>
+                            <td>Correo electrónico: </td>
+                            <td><input type="text" name="correo" value="" placeholder="Correo electronico"> </td>
+                        </tr>
+                        <tr>
+                            <td>Fecha de nacimeinto: </td>
+                            <td><input type="date" name="fecha" value=""></td>
+                        </tr>
+                        <tr>
+                            <td>Numero de seguridad: </td>
+                            <td><input type="number" name="num" value=""></td>
+                        </tr>
+                </table>
+        <br>
+            <input type="submit" value="Registro">
+        </form>
+          <button class="enlace" onClick='javascript: window.location.href="index.html";'> Volver a la pagina de inicio.</button>
+        <div class="footer">
+         <p id=top class="ftp"> Pablo Garcia Acosta (Universidad de Málaga)</p>
+         <p class="ftp"> Copyright &#169; Todos los derechos reservados <p>
+        </div>
+        </div>
+    </body>
+</html>

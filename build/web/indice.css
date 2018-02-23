@@ -1,0 +1,133 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-feb-2018, 20:46:12
+    Author     : PC
+*/
+
+
+/*Texto en general*/
+body{
+    background-color: palegoldenrod;
+    font-family: Monaco;
+}
+
+p { font-size: 30px;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: orange;
+}
+
+#pregunta{
+    color: black;
+}
+
+.error{
+    color: red;
+}
+
+h1{
+    font-size: 50px;
+    color: blueviolet;
+    font-family: cursive;
+}
+
+.enlace{
+    background-color:lightseagreen;
+    border: 2px solid;
+    text-transform: capitalize;
+    border-color: black;
+    padding: 15px 32px;
+    margin: 5px;
+    text-align: center;
+}
+/*Bloque para alinear el texto*/
+div{
+    text-align: center;
+}
+
+/*Botones*/
+input[type=text]:focus {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=text] {
+    border: 3px solid #555;
+}
+
+input[type=password]:focus {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=password] {
+    border: 3px solid #555;
+}
+
+input[type=submit] {
+    width: 200px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#cancelar{
+    background-color: red;
+    border: 1px;
+}
+/*Tabla*/
+table{
+    margin:auto;
+    font-size: 25px;
+}
+/* Links*/
+a{
+    font-family: sans-serif;
+    color:darkgreen;
+}
+
+a:hover{
+    font-family: sans-serif;
+    font-size:45px;
+    text-decoration: lawngreen;
+    background-color: yellow;
+}
+
+a:link{
+    font-family: sans-serif;
+    color:white;
+}
+
+a:visited{
+    font-family: sans-serif;
+    color:darkcyan;
+}
+
+a:active{
+    font-family: sans-serif;
+    color:tan;
+}
+
+/*Pie de pagina */
+.footer {
+  margin-top: -50px;
+  padding-top: 200px; 
+  text-align: left;
+}
+p.ftp{
+    color:black;
+    font-size: 15px;
+    margin: 0;
+}
+#top{
+    border-top: 3px solid black;
+}
+

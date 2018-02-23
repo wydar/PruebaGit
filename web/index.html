@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <link rel="stylesheet" type="text/css" href="indice.css" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="newjavascript.js"  type="text/javascript"></script>
+    </head>
+    <body>
+        <div>
+        <h1> Bienvenido a la aplicación tutor </h1>
+        <form name="formulario" method="post" onsubmit="return validateForm()" action="NewServlet"> 
+            <table>
+                <tr> 
+                    <td>Nombre ususario:    </td>
+                    <td> <input type="text" name="user" value="" placeholder="Usuario"> <br>    </td>
+                </tr>
+                <tr> 
+                    <td>Contraseña:  </td>
+                    <td><input type="password" name="pass" value=""  placeholder="Contraseña"> </td>
+                </tr>
+            </table>
+           <br>
+           <input type="submit" value="Entrar">
+        </form>
+        <br>
+        <p>Si no estas registrado, registrate pinchando <button class="enlace" onClick='javascript: window.location.href="PagRegistro.html";'> aquí </button>
+            <br>
+        <button onclick="document.getElementById('myImage').src='imagenes/feliz.png'">Da felicidad</button>
+        <img id="myImage" src="../imagenes/feliz.png" style="width:100px">
+        <button onclick="document.getElementById('myImage').src='imagenes/triste.png'">Da triteza</button>
+        </div>
+        <div class="footer">
+        <p id=top class="ftp"> Pablo Garcia Acosta (Universidad de Málaga)</p>
+        <p class="ftp"> Copyright &#169; Todos los derechos reservados <p>
+        </div>
+            </body>
+</html>
